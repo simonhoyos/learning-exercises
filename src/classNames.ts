@@ -16,6 +16,7 @@ function convertObjectToString(obj: ClassDictionary) {
     .join(' ');
 }
 
+// How to run: pnpm dlx tsx ./src/classNames.ts
 export default function classNames(...args: Array<ClassValue>): string {
   if (args.length <= 0) return '';
 
